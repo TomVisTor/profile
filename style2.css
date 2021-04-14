@@ -3,41 +3,78 @@
 
 body {
   background-color: #3c6e71;
-  color: #03506F;
+  color: #004763;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
 
-h1 {
-  font-size: 32px;
+h1, h2 {
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
 }
 
 h2 {
   font-size: 24px;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #FF7D00;
+  color: #ed7200;
   font-weight: bold;
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 24px;
+  margin: auto 0;
 }
 
 .container {
-  width: 50%;
+  width: 95%;
   text-align: center;
   margin: auto;
 }
 
-.description {
+.card-green, .cards {
+  width: 400px;
+  border-radius: 8px;
+  background: #9fc490;
+  box-shadow: 0 10px 30px rgba(3, 79, 109, 0.1);
+
+  margin: 24px auto;
+}
+
+.card-green {
   background: #9fc490;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 10px 30px rgb(3, 79, 109, 0.1);
+}
+
+.container-cards {
+}
+
+.cards {
+  padding: 10px;
+}
+
+.avatar-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin: 10px;
 }
 
 .skills {
@@ -59,12 +96,3 @@ a {
 }
 
 
-
-img {
-  height: 200px;
-  width: 190px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 50%;
-  margin: 10px;
-}

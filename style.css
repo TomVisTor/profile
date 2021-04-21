@@ -75,6 +75,14 @@ strong {
   padding: 16px;
 }
 
+.avatar-img:hover {
+  box-shadow: 0 8px 24px rgba(3, 79, 109, 0.5);
+}
+
+.cards-img:hover {
+  box-shadow: 0 8px 24px rgba(3, 79, 109, 0.5);
+}
+
 .card-green {
   width: 66%;
 }
@@ -97,6 +105,7 @@ strong {
 }
 
 .avatar-img {
+  box-shadow: 0 4px 16px rgba(3, 79, 109, 0.5);
   height: 200px;
   width: 200px;
   object-fit: cover;
